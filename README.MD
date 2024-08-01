@@ -62,5 +62,4 @@ Se inicia Rviz.
 ``rviz2 -d rviz/roboto.rviz``
 
 
-El video de demostración se encuentra en [este link a Youtube](images/video/Rviz.webm)
-![a](images/demostracion_Rviz.png)
+El video de demostración se encuentra en [este link a Youtube](https://youtu.be/i2QXZkbTxF4)
