@@ -1,0 +1,211 @@
+[0.028s] Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubb/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubb/uros_ws/install/micro_ros_setup
+[0.404s] -- The C compiler identification is GNU 11.4.0
+[0.643s] -- The CXX compiler identification is GNU 11.4.0
+[0.665s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.814s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.824s] -- Detecting CXX compiler ABI info
+[0.970s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.999s] -- Detecting CXX compile features
+[1.001s] -- Detecting CXX compile features - done
+[1.014s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.318s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.502s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.669s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.699s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.699s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.704s] -- Added test 'lint_cmake' to check CMake code style
+[1.707s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.724s] -- Added test 'xmllint' to check XML markup files
+[1.728s] -- Configuring done
+[1.735s] -- Generating done
+[1.737s] -- Build files have been written to: /home/ubb/uros_ws/build/micro_ros_setup
+[1.751s] Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubb/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubb/uros_ws/install/micro_ros_setup
+[1.752s] Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubb/uros_ws/build/micro_ros_setup -- -j1 -l1
+[1.809s] Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubb/uros_ws/build/micro_ros_setup -- -j1 -l1
+[1.861s] Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubb/uros_ws/build/micro_ros_setup
+[1.873s] -- Install configuration: ""
+[1.873s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[1.874s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[1.875s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[1.875s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[1.876s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[1.876s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[1.877s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[1.877s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[1.877s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[1.878s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[1.878s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[1.879s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[1.879s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[1.880s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[1.880s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[1.880s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config
+[1.881s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed
+[1.881s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[1.881s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic
+[1.882s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[1.882s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[1.882s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[1.883s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[1.883s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[1.884s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[1.884s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[1.884s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[1.885s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[1.885s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra
+[1.885s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[1.886s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[1.886s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[1.886s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[1.887s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[1.887s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[1.887s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[1.888s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[1.888s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[1.888s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[1.889s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[1.889s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/utils.sh
+[1.889s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android
+[1.890s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic
+[1.890s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[1.891s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[1.892s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[1.892s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[1.892s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[1.893s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[1.893s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[1.894s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[1.894s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[1.894s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[1.895s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host
+[1.895s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic
+[1.895s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[1.896s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[1.896s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[1.896s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[1.897s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[1.897s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[1.897s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[1.898s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[1.898s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[1.898s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian
+[1.899s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic
+[1.899s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[1.899s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[1.900s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[1.901s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[1.901s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[1.901s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[1.902s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[1.902s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[1.902s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[1.903s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[1.903s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib
+[1.904s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[1.904s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[1.904s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[1.905s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[1.905s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[1.905s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[1.906s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[1.906s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[1.906s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[1.907s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[1.907s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos
+[1.908s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32
+[1.908s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[1.909s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[1.909s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[1.909s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[1.910s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[1.910s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[1.911s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[1.911s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[1.911s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[1.912s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[1.912s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[1.912s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[1.913s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[1.913s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[1.913s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[1.914s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[1.914s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[1.915s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[1.915s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[1.915s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[1.916s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[1.916s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[1.916s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[1.917s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[1.917s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[1.917s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[1.918s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[1.918s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[1.918s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[1.918s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[1.919s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[1.919s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[1.920s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[1.920s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[1.920s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[1.920s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[1.921s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[1.921s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[1.921s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[1.922s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[1.922s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[1.922s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[1.923s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[1.923s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[1.924s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[1.924s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[1.925s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[1.925s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[1.925s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[1.926s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[1.926s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[1.926s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[1.927s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[1.927s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[1.927s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[1.928s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[1.928s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[1.928s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[1.931s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[1.931s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[1.932s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[1.932s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[1.932s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[1.933s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[1.933s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[1.933s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[1.934s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[1.934s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr
+[1.934s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[1.935s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic
+[1.935s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[1.935s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[1.936s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[1.936s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[1.936s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[1.937s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[1.937s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[1.937s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[1.938s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[1.938s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[1.938s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[1.939s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[1.939s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[1.940s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[1.941s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[1.946s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[1.947s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[1.947s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[1.948s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[1.948s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[1.949s] -- Installing: /home/ubb/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[1.952s] Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubb/uros_ws/build/micro_ros_setup

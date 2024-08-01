@@ -1,0 +1,6 @@
+Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubb/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubb/uros_ws/install/micro_ros_setup
+Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubb/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubb/uros_ws/install/micro_ros_setup
+Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubb/uros_ws/build/micro_ros_setup -- -j1 -l1
+Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubb/uros_ws/build/micro_ros_setup -- -j1 -l1
+Invoking command in '/home/ubb/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubb/uros_ws/build/micro_ros_setup
+Invoked command in '/home/ubb/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubb/uros_ws/build/micro_ros_setup
