@@ -6,7 +6,7 @@ Todos los archivos personalizados se encuentran comentados para el entendimiento
 
 Este trabajo fue realizado en ROS2 Iron.
 
-![a](images/apariencia_3dof.png)
+![a](images/setup.jpg)
 
 ## Setup
 Para lograr ejecutar el programa se debe clonar el rositorio e instalar las librerias de ros usando los siguientes comandos:
@@ -27,6 +27,8 @@ Se dan permisos para acceder al USB
 
 ## Simulación en Rviz
 Para simularlo en Rviz se debe ubicar en la carpeta donde se haya clonado el repositorio. Se necesitarán 3 terminales para ejecutar el agente, el nodo tf.py que publica las transformadas y el que ejecutará Rviz:
+
+![a](images/Rviz.png)
 
 Primera terminal:
 Inicializar ROS.
