@@ -12,8 +12,9 @@ from sensor_msgs.msg import Temperature, Imu
 
 from geometry_msgs.msg import TransformStamped
 
+#Se crea un nodo que se suscribe al sensor IMU y también publica transformadas para mover el robot en rviz
 class Imu_to_tf(Node):
-    def __init__(self):
+    def __init__(self): #Iniciacion del nodo
         super().__init__("tf_broadcaster_imu")
         
         self.transform_stamped = TransformStamped()
@@ -25,8 +26,9 @@ class Imu_to_tf(Node):
                                                                                                    reliability=ReliabilityPolicy.BEST_EFFORT))
         self.br = tf2_ros.TransformBroadcaster(self)
 
+    
     def handle_imu_pose(self,msg):
-
+        #obtención y envio de datos
         q0 = msg.orientation.x
         q1 = msg.orientation.y
         q2 = msg.orientation.z
