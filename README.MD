@@ -1,5 +1,7 @@
-# 3dof
-3dof es un brazo robótico articulado con 3 grados de libertad con una cámara adjuntada en el extremo del brazo. En este repositorio se mostrará la simulación de este brazo en Rviz, con ventana de controles, y en Gazebo, siendo controlado por comandos.
+# Simulación de datos de una MPU6050 en Rviz usando una ESP32
+
+Este trabajo consiste en transmitir datos de un MPU6050 usando una ESP32 usando microROS para luego simular los datos recibidos en Rviz. Para esto se creó un nodo que publica en ```/imu/raw_data``` en la ESP32 que armara el mensaje en estandar de sensor Imu para ROS2 que luego es transmitido por puerto serial a través de un
+
 Todos los archivos personalizados se encuentran comentados para el entendimiento del usuario.
 Este trabajo fue realizado en ROS2 Iron.
 
